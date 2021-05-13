@@ -15,3 +15,9 @@ Route::post('/update', 'HocSinhController@update');
 Route::get('/remove/{id}', 'HocSinhController@remove');
 
 // DO SOME THING
+Route::get('/dangnhap', function(){
+    return view('dangnhap');
+});
+
+
+Route::post('login','HocSinhController@login');

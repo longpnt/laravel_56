@@ -83,4 +83,8 @@ class HocSinhController extends Controller
 
         return redirect('/');
     }
+    public function login()
+    {
+        return redirect('/');
+    }
 }
