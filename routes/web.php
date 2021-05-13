@@ -13,3 +13,5 @@ Route::get('/edit/{id}', 'HocSinhController@edit');
 Route::post('/update', 'HocSinhController@update');
 
 Route::get('/remove/{id}', 'HocSinhController@remove');
+
+// DO SOME THING
