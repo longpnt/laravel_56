@@ -14,10 +14,11 @@ Route::post('/update', 'HocSinhController@update');
 
 Route::get('/remove/{id}', 'HocSinhController@remove');
 
-// DO SOME THING
-Route::get('/dangnhap', function(){
-    return view('dangnhap');
-});
+Auth::routes();
 
+Route::get('/home', 'HomeController@index')->name('home');
 
-Route::post('login','HocSinhController@login');
+Route::get('/register','HomeController@register');
+
+Route::post('/login','HomeController@login');
+
