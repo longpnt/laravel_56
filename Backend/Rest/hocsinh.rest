@@ -1,0 +1,3 @@
+### Get List
+
+GET http://thanhlong.ml/api/v1/hocsinh/
